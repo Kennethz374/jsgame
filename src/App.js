@@ -1,12 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navigation from "./Components/Navigation"
 
 function App() {
   return (
-    <div className="App">
-      This is the Home Page
-    </div>
+      <Navigation/>
   );
 }
 
