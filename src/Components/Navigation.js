@@ -15,7 +15,9 @@ export default function Navigation() {
         <Typography variant="h6" className={classes.title}>
           Javascript Games!!
         </Typography>
-        <Button color="inherit">Login</Button>
+        <div className={classes.grow}/>
+        <Button className={classes.Button}color="inherit">Sign up</Button>
+        <Button className={classes.Button}color="inherit">Login</Button>
       </Toolbar>
     </AppBar>
   )
